@@ -14,7 +14,3 @@ print(alfa, end="\n\n")
 prediction = np.matmul(X, alfa)
 
 print(prediction, end="\n\n")
-
-# for i in range(len(prediction)):
-#     print(round(prediction[i][0]))
-#     print(np.argmax(prediction[i]))
